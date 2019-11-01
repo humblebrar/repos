@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Middle Valley Comunity</h1>
+    <p class="lead">Create an account.</p>
+    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Register &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Register</h2>
+        <p>Create an account
+        </p>
+        <p>@Html.ActionLink("Register","Register","Account",null,new {@class="btn btn-default" })</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Get more libraries</h2>
+        <p>Existing account.</p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Log In &raquo;</a></p>
+    </div>
+    
+</div>
